@@ -118,8 +118,8 @@ tailwind.config = {
   <div class="row">
          <nav class="navbar navbar-light bg-slate-200 text-neutral-100  left-0 top-45">
          
-            <form class="d-flex  search-form">
-              <input class="form-control me-2 w-96 text-neutral-100" type="search" placeholder="Search by City Name:" aria-label="Search">
+            <form id="searchForm" class="d-flex  search-form">
+              <input id="cityInput" class="form-control me-2 w-96 text-neutral-100" type="search" placeholder="Search by City Name:" aria-label="Search">
               <button class="btn btn-outline-success text-neutral-100" type="submit">Search Here </button>
             </form>
         
@@ -174,11 +174,11 @@ tailwind.config = {
 <div class="all-details">
   <div class="left-side">
     <div><i class="ri-cloud-line"></i>
-      <span class="deg">15&degc</span>
+      <span id="temp" class="deg">15&degc</span>
       <div ><i class="ri-map-pin-line"></i>
-        <span>Delhi, India</span></div>
+        <span id="city">Delhi, India</span></div>
       <div class="more">
-        clean <a href="#">more info</a>
+        clean <a  href="#">more info</a>
       </div> 
     </div>
 
@@ -186,16 +186,16 @@ tailwind.config = {
   </div>
   <div class="right-side justify-between">
     <div class="wind">
-      <span>Wind</span>
-      <span class="wind1">15km/h</span>
+      <span >Wind</span>
+      <span id="wind" class="wind1">15km/h</span>
     </div> 
     <div class="rain">
       <span >Rain</span>
-      <span class="rain1">40%</span>
+      <span id="humidity" class="rain1">%</span>
     </div>
     <div class="air-quality">
       <span>Air Quality</span>
-      <span class="denger">Dagerous</span>
+      <span id="discription" class="denger">Dagerous</span>
     </div>
      </div>
 </div>
