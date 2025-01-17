@@ -21,7 +21,7 @@ async function fetchWeather(city) {
         if (data.cod === 200) {
             displayWeather(data);
         } else {
-            alert("City not found");
+            alert("oye bsdk  city name sahi se daal ");
         }
     } catch (error) {
         console.error("Error fetching weather data:", error);
