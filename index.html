@@ -168,7 +168,7 @@ tailwind.config = {
 
 </div>
   <div class="h-3 h-6 text-neutral-50">
-  <h6>05/02/2024 12:30 PM</h6>
+  <h6 id="currentDateTime">05/02/2024 12:30 PM</h6>
 </div>
 
 <div class="all-details">
@@ -177,9 +177,7 @@ tailwind.config = {
       <span id="temp" class="deg">15&degc</span>
       <div ><i class="ri-map-pin-line"></i>
         <span id="city">Delhi, India</span></div>
-      <div class="more">
-        clean <a  href="#">more info</a>
-      </div> 
+      
     </div>
 
     
@@ -191,11 +189,12 @@ tailwind.config = {
     </div> 
     <div class="rain">
       <span >Rain</span>
-      <span id="humidity" class="rain1">%</span>
+      <span id="humidity" class="rain1">100%</span>
     </div>
     <div class="air-quality">
-      <span>Air Quality</span>
-      <span id="discription" class="denger">Dagerous</span>
+      <span>Alert</span>
+      
+      <a id="description" class="more" href="#">more info</a>
     </div>
      </div>
 </div>

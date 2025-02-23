@@ -105,7 +105,7 @@ box start
 	
 
 
-}
+
 
 
 .box1{
@@ -285,13 +285,13 @@ animation: 3s ease-in 1s infinite reverse both running slidein;
 	font-size: 4rem;
 }
 
-.more a {
+.more  {
 	background-color: transparent;
 	border-radius: 1.2rem;
 	color: blue;
 }
 
-.more a:hover{
+.more:hover{
 	background-color: transparent;
 	color: royalblue;
 }
