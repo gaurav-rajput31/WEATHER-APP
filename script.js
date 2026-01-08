@@ -8,7 +8,7 @@ tailwind.config = {
         }
     }
 }
-
+    
 // OpenWeatherMap API Key
 const apiKey = "a5d25a2551a4cdcb95a0bbb3ac1679ef";  // Replace with your OpenWeatherMap API key
 
