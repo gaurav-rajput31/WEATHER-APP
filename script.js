@@ -6,7 +6,7 @@ tailwind.config = {
                 clifford: '#da373d',
             }
         }
-    }
+    }             
 }
     
 // OpenWeatherMap API Key
